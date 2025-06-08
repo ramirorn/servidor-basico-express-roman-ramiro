@@ -57,3 +57,8 @@ app.use((req, res) => {
         statusCode: 404,
     });
 });
+
+// -----------------Inicio del servidor---------------------
+app.listen(PORT, () => {
+    console.log(`Servidor corriendo en http://localhost:${PORT}`);
+});
